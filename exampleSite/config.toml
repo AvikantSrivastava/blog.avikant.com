@@ -85,8 +85,7 @@ contact_form_action = "#" # contact form works with https://formspree.io
 search = true
 # main section
 mainSections = ["blog"]
-# copyright
-copyright = "Designed & Developed By [Gethugothemes](https://gethugothemes.com/)"
+
 
 # Preloader
 [params.preloader]
@@ -96,7 +95,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Instagram feed
 [params.instafeed]
 enable = false
-instagram_user = "bookworm"
+instagram_user = "aesthetixell"
 access_token = "IGQVJYeUk4YWNIY1h4OWZANeS1wRHZARdjJ5QmdueXN2RFR6NF9iYUtfcGp1NmpxZA3RTbnU1MXpDNVBHTzZAMOFlxcGlkVHBKdjhqSnUybERhNWdQSE5hVmtXT013MEhOQVJJRGJBRURn"
 
 # Subscription
@@ -130,13 +129,9 @@ name = "Contact"
 url = "contact/"
 weight = 4
   
-[[menu.main]]
-name = "Buy Premium"
-url = "https://gethugothemes.com/products/bookworm/"
-weight = 5
 
 [[menu.main]]
-weight = 6
+weight = 5
 url = "#"
 name = "Pages"
 hasChildren = true
@@ -200,17 +195,15 @@ weight = 4
 
 # Social Icons
 [[params.social]]
-icon = "lab la-facebook-f" # https://icons8.com/line-awesome
-url = "https://www.facebook.com/"
 
 [[params.social]]
 icon = "lab la-twitter" # https://icons8.com/line-awesome
-url = "https://www.twitter.com/"
+url = "https://www.twitter.com/aesthetixell"
 
 [[params.social]]
 icon = "lab la-instagram" # https://icons8.com/line-awesome
-url = "https://www.instagram.com/"
+url = "https://www.instagram.com/aesthetixell"
 
 [[params.social]]
 icon = "lab la-linkedin-in" # https://icons8.com/line-awesome
-url = "https://www.linkedin.com/"
+url = "https://www.linkedin.com/in/AvikantSrivastava"
