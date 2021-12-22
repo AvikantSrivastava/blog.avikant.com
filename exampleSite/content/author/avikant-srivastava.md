@@ -17,7 +17,7 @@ I am a final year student currently working at HackerRank as a SWE Intern. With 
 
 I have good understanding of building scalable Backend systems and Microservices in Python, Go, Ruby and Node js, currently exploring System Design, DevOps and Infrastructure Engineering 💻
 
-I love to talk about about technology and mentor students. Always up for working on new and creative idea, learning new skills and building rockstart projects ✨
+I love to talk about technology and mentor students. Always up for working on new and creative idea, learning new skills and building rockstart projects ✨
 
 Apart of tech stuff, I enjoy watching Anime and Formula 1 on weekends 🏎️
 
