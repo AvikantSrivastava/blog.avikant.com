@@ -49,4 +49,4 @@ I have good understanding of building scalable Backend systems and Microservices
 
 I love to talk about technology and mentor students. Always up for working on new and creative idea, learning new skills and building rockstart projects ✨
 
-Apart of tech stuff, I enjoy watching Anime and Formula 1 on weekends 🏎️
+Apart from tech stuff, I enjoy watching Anime and Formula 1 on weekends 🏎️
