@@ -1,28 +1,28 @@
 ---
 title: "About"
 layout: "about"
-image: "images/about.jpg"
+image: "images/about_avikant.jpg"
 draft: false
 
 #caption
 caption:
   enable: true
-  title: "I’m Henara Colii, A content writer based in LDN, currently at Bookworm."
+  title: "I’m Avikant Srivastava, A software developer based in Bangalore, currently working at HackerRank."
 
 # social
 social:
   enable: true
   social_links:
-  - link: "https://www.facebook.com/"
-    icon: "lab la-facebook-f"
+  - link: "https://www.instagram.com/aesthetixell"
+    icon: "lab la-instagram"
 
-  - link: "https://www.twitter.com/"
+  - link: "https://www.twitter.com/aesthetixell"
     icon: "lab la-twitter"
     
-  - link: "https://www.linkedin.com/"
+  - link: "https://www.linkedin.com/in/avikantsrivastava"
     icon: "lab la-linkedin-in"
     
-  - link: "https://www.github.com/"
+  - link: "https://www.github.com/avikantsrivastava"
     icon: "lab la-github"
 
 # what_i_do
@@ -43,6 +43,10 @@ what_i_do:
     description: "Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis."
  
 ---
-A content writer with over 12 years experience working across brand identity, publishing and digital products. Maecenas sit amet purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget.
+I am a final year student currently working at HackerRank as a SWE Intern. With hands on experience in Software Development and Machine Learning, I have worked on mutiple end-to-end projects
 
-Purus eget ipsum elementum venenatis. Aenean maximus urna magna elementum venenatis, quis rutrum mi semper non purus eget ipsum elementum venenatis.
+I have good understanding of building scalable Backend systems and Microservices in Python, Go, Ruby and Node js, currently exploring System Design, DevOps and Infrastructure Engineering 💻
+
+I love to talk about about technology and mentor students. Always up for working on new and creative idea, learning new skills and building rockstart projects ✨
+
+Apart of tech stuff, I enjoy watching Anime and Formula 1 on weekends 🏎️
