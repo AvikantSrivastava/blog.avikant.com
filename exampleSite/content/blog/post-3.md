@@ -1,9 +1,9 @@
 ---
 title: "DIY Paper Diamond Tutorial with HUNGRY HEART"
 description: "meta description"
-image: "images/post/06.jpg"
+image: "images/post/03.jpg"
 date: 2021-01-25T11:35:57+06:00
-author: "Henara Colii"
+author: "Avikant Srivastava"
 tags: ["Diy", "Toy"]
 categories: ["LifeStyle"]
 draft: false
