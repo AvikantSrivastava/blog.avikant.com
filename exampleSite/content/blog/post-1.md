@@ -23,9 +23,9 @@ Each layer is represented with a Matrix [m*n] where m is the size of the layer a
 - **Sequential Data**
     - Sequential data refers to any type of data where information is arranged in a particular order. Time is a component of the data. Examples include Textual data, time series data, DNA sequences, Sequences of user actions, etc.
 
-    ![rnn_blog](images/post/rnn_blog%201.png)
+    ![rnn_blog](images/post/rnn_blog_1.png)
 
-    ![rnn_blog](images/post/rnn_blog%202.png)
+    ![rnn_blog](images/post/rnn_blog_2.png)
 
 - **Sequence Modelling**
     - Sequence modelling can be described as the process of producing a sequence of values from an input of sequential data. In other words, neural networks are used to capture the relationship between sequential input and output data. When sequence modelling is applied to natural language data they are called language models.
@@ -47,7 +47,7 @@ Each layer is represented with a Matrix [m*n] where m is the size of the layer a
         Here both the input and output are variable length sequential data. Examples include Neural Machine translation that powers Google Translate
 
 
-    ![rnn_blog](images/post/rnn_blog%203.png)
+    ![rnn_blog](images/post/rnn_blog_3.png)
 
 
 ## Problems with simple ANNs on Sequential Data
@@ -75,11 +75,11 @@ To overcome all the above problems, the data is fed along with additional inform
 
 For each element in the sequence of length $n$, $x_n$  is the input and  $y_n$ is the output. Each element $y_n$  of the output sequence is mapped by the formula $y_t = f(x_t)$ , and there is no flow of information from the previous element to the next element.
 
-![rnn_blog](images/post/rnn_blog%204.png)
+![rnn_blog](images/post/rnn_blog_4.png)
 
 A better way to approach this problem is by introducing a hidden state that is passed to the next element along with the input. Let’s call this hidden state as $h_{t}$. Now the formula becomes $y_{t} = f({x_t, h_{t-1}})$.
 
-![rnn_blog](images/post/rnn_blog%205.png)
+![rnn_blog](images/post/rnn_blog_5.png)
 
 So now we have a flow of information from the previous elements to later elements the later elements of the sequence we have addressed all the conditions of the design criteria.
 
@@ -89,9 +89,9 @@ The cell now has one additional input and output ie hidden state from the previo
 
 $h_t = tanh(W^T_{hh}h{t-1} + W^T_{xh}x{t})$
 
-![rnn_blog](images/post/rnn_blog%206.png)
+![rnn_blog](images/post/rnn_blog_6.png)
 
-![rnn_blog](images/post/rnn_blog%207.png)
+![rnn_blog](images/post/rnn_blog_7.png)
 
 ## Traning of RNN cells: Backpropagation through time (BPTT)
 
@@ -102,7 +102,7 @@ Simple **Backprop algorithm:**
 
 Since time is one more component of the sequential data that represents an order of the information, the backprop algorithm has to be applied sequentially in reverse order to tweak the parameters.
 
-![rnn_blog](images/post/rnn_blog%208.png)
+![rnn_blog](images/post/rnn_blog_8.png)
 
 In the diagram, the black arrows represent the forward pass, and the red arrows represent the backward pass. The error is the loss that is computed against a loss function and is used to tweak the value of the parameters (weights and biases). The parameters of the cell are tweaked multiple times for each element present in the sequence.
 
@@ -114,7 +114,7 @@ Multiply many small numbers together → Errors due to further back time steps h
 
 This results in the failure of the model to capture long-term dependencies, similar is the case when many large numbers are multiplied, and the value of the gradients explodes resulting in exploding gradient problem.
 
-![rnn_blog](images/post/rnn_blog%209.png)
+![rnn_blog](images/post/rnn_blog_9.png)
 
 ## Concept of “Gates”
 
@@ -128,7 +128,7 @@ This results in the failure of the model to capture long-term dependencies, simi
 
     LSTM stands for **long short-term memory**, and it it is designed to maintain a memory $ct$ and a time $t$. This set of information is passed to the next cell, and weights are trained against them to have a gated flow.
 
-    ![rnn_blog](images/post/rnn_blog%2010.png)
+    ![rnn_blog](images/post/rnn_blog_10.png)
 
     - **Forget Gate**
         - The amount to which a cell’s memory is forgotten is controlled by the forget gate.
